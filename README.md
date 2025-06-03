@@ -1,4 +1,4 @@
-# 🚀 小T智能BI系统
+# 🚀 小T智能BI系统（后端）
 
 ## 一、项目概述
 
@@ -23,7 +23,8 @@
 
 ### 异步优化方案：
 
-![智能BI系统流程退](D:\MyCodes\xiaoT-BI\xiaoT-BI-backend\pictures\智能BI系统流程退.png)
+![智能BI系统流程退](./images/智能BI系统流程图.png)
+
 
 为了避免多个请求直接压垮 AI 接口，系统通过消息队列（如 RabbitMQ）进行异步任务处理：
 
