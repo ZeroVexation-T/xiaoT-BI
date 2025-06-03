@@ -1,0 +1,42 @@
+
+# 忽略文件夹
+tbi-backend-master/maven-repository
+yupi-backend-master/
+yupi-fronted-master/
+
+# 通用
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Java & Maven
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+.mvn/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.*
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+out/
+.settings/
+.project
+.classpath
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+EOF
