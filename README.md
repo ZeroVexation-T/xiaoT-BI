@@ -21,7 +21,9 @@
 3. 后端调用 AI 服务处理数据
 4. 生成图表后返回结果并展示
 
-### 异步优化方案：![智能BI系统流程退](D:\Users\19572\Pictures\智能BI系统流程退.png)
+### 异步优化方案：
+
+![智能BI系统流程退](D:\MyCodes\xiaoT-BI\xiaoT-BI-backend\pictures\智能BI系统流程退.png)
 
 为了避免多个请求直接压垮 AI 接口，系统通过消息队列（如 RabbitMQ）进行异步任务处理：
 
